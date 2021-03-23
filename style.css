@@ -1,0 +1,46 @@
+body {
+  font-family: Source Sans Pro,sans-serif;
+  margin: 0
+}
+
+header {
+  border: black solid 1px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+}
+.header-information {
+  height: 2rem;
+}
+.navigation {
+  width: 45%
+}
+
+.navigation-list {
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.header li {
+  list-style: none;
+}
+
+.header li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-information {
+  background-color: #247888;
+  color: white;
+}
+
+.header-logo {
+  height: 4rem;
+}
